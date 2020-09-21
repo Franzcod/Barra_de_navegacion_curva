@@ -5,7 +5,7 @@ import 'package:navigation_bar_curve/pages/page_one.dart';
 import 'package:navigation_bar_curve/pages/page_three.dart';
 import 'package:navigation_bar_curve/pages/page_two.dart';
 
-void main() => runApp(MaterialApp(home: BottomNavBar()));
+void main() => runApp(MaterialApp(debugShowCheckedModeBanner: false,home: BottomNavBar()));
 
 class BottomNavBar extends StatefulWidget {
   @override
